@@ -13,14 +13,16 @@ alias ll='ls -lah --color=auto'
 alias la='ls -a --color=auto'
 alias py='python3'
 alias hx='helix'
-alias xterm='xterm -fa "Iosevka Term:style=Regular" -fs 8 -bg black -fg white'
-alias n='nvim'
 alias v='vim'
 alias fastfetch='fastfetch -c all'
-. "$HOME/.cargo/env"
+alias hx='/usr/local/bin/helix-25.01.1-x86_64.AppImage'
+alias helix='/usr/local/bin/helix-25.01.1-x86_64.AppImage'
+alias nvim='/usr/local/bin/nvim-linux-x86_64.appimage'
+alias n='/usr/local/bin/nvim-linux-x86_64.appimage'
+alias wt='~/watch_time.sh'
+alias v=vim
+alias xterm='xterm -fa Iosevka -fs 18 -bg black -fg white'
 
-export VISUAL="nvim"
 export EDITOR="$VISUAL"
-export MANPAGER='nvim +Man!'
-alias mini='~/mini-moulinette/mini-moul.sh'
-alias zig='/home/x/homelab/fen/garbage/zigg/zig-linux-x86_64-0.14.0-dev.2546+0ff0bdb4a/zig'
+#export MANPAGER='nvim +Man!'
+. "$HOME/.cargo/env"

@@ -7,9 +7,8 @@ set autoindent
 set expandtab
 set ruler
 set list
-" set lcs=eol:↴,tab:>-,space:·,trail:~,extends:>,precedes:<,nbsp:␣
 set lcs=tab:>-,space:·,trail:~,extends:>,precedes:<,nbsp:␣
 set ignorecase smartcase
 set clipboard+=unnamedplus
 cnoreabbrev t term
-colorscheme zaibatsu
+colorscheme vim
