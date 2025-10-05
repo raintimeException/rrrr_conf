@@ -11,4 +11,5 @@ set lcs=tab:>-,space:·,trail:~,extends:>,precedes:<,nbsp:␣
 set ignorecase smartcase
 set clipboard+=unnamedplus
 cnoreabbrev t term
+cnoreabbrev ex Ex
 colorscheme vim
